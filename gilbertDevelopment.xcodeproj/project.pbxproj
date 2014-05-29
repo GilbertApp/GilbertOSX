@@ -18,6 +18,16 @@
 		1E501096191ACB5300511933 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E501075191ACB5300511933 /* Cocoa.framework */; };
 		1E50109E191ACB5300511933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E50109C191ACB5300511933 /* InfoPlist.strings */; };
 		1E5010A0191ACB5300511933 /* gilbertDevelopmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E50109F191ACB5300511933 /* gilbertDevelopmentTests.m */; };
+		1EE8DFD819368B5600F3BFF1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCA19368B5500F3BFF1 /* .gitignore */; };
+		1EE8DFD919368B5600F3BFF1 /* Doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCB19368B5500F3BFF1 /* Doxyfile */; };
+		1EE8DFDA19368B5600F3BFF1 /* gilbert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCC19368B5500F3BFF1 /* gilbert.cpp */; };
+		1EE8DFDB19368B5600F3BFF1 /* gilbertanalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCD19368B5500F3BFF1 /* gilbertanalysis.cpp */; };
+		1EE8DFDC19368B5600F3BFF1 /* gilbertclassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCF19368B5500F3BFF1 /* gilbertclassifier.cpp */; };
+		1EE8DFDD19368B5600F3BFF1 /* gilbertdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD119368B5600F3BFF1 /* gilbertdb.cpp */; };
+		1EE8DFDE19368B5600F3BFF1 /* gilbertsignalutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD319368B5600F3BFF1 /* gilbertsignalutil.cpp */; };
+		1EE8DFDF19368B5600F3BFF1 /* mainpage.dox in Resources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD519368B5600F3BFF1 /* mainpage.dox */; };
+		1EE8DFE019368B5600F3BFF1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD619368B5600F3BFF1 /* Makefile */; };
+		1EE8DFE119368B5600F3BFF1 /* soundfeatureset.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD719368B5600F3BFF1 /* soundfeatureset.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +60,20 @@
 		1E50109B191ACB5300511933 /* gilbertDevelopmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gilbertDevelopmentTests-Info.plist"; sourceTree = "<group>"; };
 		1E50109D191ACB5300511933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E50109F191ACB5300511933 /* gilbertDevelopmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gilbertDevelopmentTests.m; sourceTree = "<group>"; };
+		1EE8DFCA19368B5500F3BFF1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1EE8DFCB19368B5500F3BFF1 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		1EE8DFCC19368B5500F3BFF1 /* gilbert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gilbert.cpp; sourceTree = "<group>"; };
+		1EE8DFCD19368B5500F3BFF1 /* gilbertanalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gilbertanalysis.cpp; sourceTree = "<group>"; };
+		1EE8DFCE19368B5500F3BFF1 /* gilbertanalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gilbertanalysis.h; sourceTree = "<group>"; };
+		1EE8DFCF19368B5500F3BFF1 /* gilbertclassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gilbertclassifier.cpp; sourceTree = "<group>"; };
+		1EE8DFD019368B5600F3BFF1 /* gilbertclassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gilbertclassifier.h; sourceTree = "<group>"; };
+		1EE8DFD119368B5600F3BFF1 /* gilbertdb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gilbertdb.cpp; sourceTree = "<group>"; };
+		1EE8DFD219368B5600F3BFF1 /* gilbertdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gilbertdb.h; sourceTree = "<group>"; };
+		1EE8DFD319368B5600F3BFF1 /* gilbertsignalutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gilbertsignalutil.cpp; sourceTree = "<group>"; };
+		1EE8DFD419368B5600F3BFF1 /* gilbertsignalutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gilbertsignalutil.h; sourceTree = "<group>"; };
+		1EE8DFD519368B5600F3BFF1 /* mainpage.dox */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainpage.dox; sourceTree = "<group>"; };
+		1EE8DFD619368B5600F3BFF1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1EE8DFD719368B5600F3BFF1 /* soundfeatureset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = soundfeatureset.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +139,7 @@
 		1E50107B191ACB5300511933 /* gilbertDevelopment */ = {
 			isa = PBXGroup;
 			children = (
+				1EE8DFC919368B5500F3BFF1 /* gilbertcore */,
 				1E501087191ACB5300511933 /* AppDelegate.h */,
 				1E501088191ACB5300511933 /* AppDelegate.m */,
 				1E50108A191ACB5300511933 /* MainMenu.xib */,
@@ -152,6 +177,27 @@
 				1E50109C191ACB5300511933 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EE8DFC919368B5500F3BFF1 /* gilbertcore */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8DFCA19368B5500F3BFF1 /* .gitignore */,
+				1EE8DFCB19368B5500F3BFF1 /* Doxyfile */,
+				1EE8DFCC19368B5500F3BFF1 /* gilbert.cpp */,
+				1EE8DFCD19368B5500F3BFF1 /* gilbertanalysis.cpp */,
+				1EE8DFCE19368B5500F3BFF1 /* gilbertanalysis.h */,
+				1EE8DFCF19368B5500F3BFF1 /* gilbertclassifier.cpp */,
+				1EE8DFD019368B5600F3BFF1 /* gilbertclassifier.h */,
+				1EE8DFD119368B5600F3BFF1 /* gilbertdb.cpp */,
+				1EE8DFD219368B5600F3BFF1 /* gilbertdb.h */,
+				1EE8DFD319368B5600F3BFF1 /* gilbertsignalutil.cpp */,
+				1EE8DFD419368B5600F3BFF1 /* gilbertsignalutil.h */,
+				1EE8DFD519368B5600F3BFF1 /* mainpage.dox */,
+				1EE8DFD619368B5600F3BFF1 /* Makefile */,
+				1EE8DFD719368B5600F3BFF1 /* soundfeatureset.c */,
+			);
+			path = gilbertcore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE8DFD919368B5600F3BFF1 /* Doxyfile in Resources */,
+				1EE8DFD819368B5600F3BFF1 /* .gitignore in Resources */,
 				1E501080191ACB5300511933 /* InfoPlist.strings in Resources */,
 				1E50108E191ACB5300511933 /* Images.xcassets in Resources */,
+				1EE8DFDF19368B5600F3BFF1 /* mainpage.dox in Resources */,
 				1E501086191ACB5300511933 /* Credits.rtf in Resources */,
 				1E50108C191ACB5300511933 /* MainMenu.xib in Resources */,
 			);
@@ -252,8 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE8DFDE19368B5600F3BFF1 /* gilbertsignalutil.cpp in Sources */,
+				1EE8DFDA19368B5600F3BFF1 /* gilbert.cpp in Sources */,
+				1EE8DFDB19368B5600F3BFF1 /* gilbertanalysis.cpp in Sources */,
+				1EE8DFDC19368B5600F3BFF1 /* gilbertclassifier.cpp in Sources */,
+				1EE8DFE119368B5600F3BFF1 /* soundfeatureset.c in Sources */,
 				1E501089191ACB5300511933 /* AppDelegate.m in Sources */,
 				1E501082191ACB5300511933 /* main.m in Sources */,
+				1EE8DFE019368B5600F3BFF1 /* Makefile in Sources */,
+				1EE8DFDD19368B5600F3BFF1 /* gilbertdb.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,8 +371,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -328,7 +384,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -345,6 +401,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lsndfile",
+					"-lfftw3",
+				);
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -353,8 +413,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -368,7 +428,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -377,6 +437,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-lsndfile",
+					"-lfftw3",
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -466,6 +530,7 @@
 				1E5010A5191ACB5300511933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E5010A6191ACB5300511933 /* Build configuration list for PBXNativeTarget "gilbertDevelopmentTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +539,7 @@
 				1E5010A8191ACB5300511933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "gilbertcore/gilbert.cpp"
 
 @implementation AppDelegate
 
