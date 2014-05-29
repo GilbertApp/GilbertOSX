@@ -27,7 +27,7 @@
 		1EE8DFDE19368B5600F3BFF1 /* gilbertsignalutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD319368B5600F3BFF1 /* gilbertsignalutil.cpp */; };
 		1EE8DFDF19368B5600F3BFF1 /* mainpage.dox in Resources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD519368B5600F3BFF1 /* mainpage.dox */; };
 		1EE8DFE019368B5600F3BFF1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD619368B5600F3BFF1 /* Makefile */; };
-		1EE8DFE119368B5600F3BFF1 /* soundfeatureset.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD719368B5600F3BFF1 /* soundfeatureset.c */; };
+		1EE8DFE319372D7C00F3BFF1 /* soundfeatureset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFE219372D7C00F3BFF1 /* soundfeatureset.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,7 @@
 		1EE8DFD419368B5600F3BFF1 /* gilbertsignalutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gilbertsignalutil.h; sourceTree = "<group>"; };
 		1EE8DFD519368B5600F3BFF1 /* mainpage.dox */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainpage.dox; sourceTree = "<group>"; };
 		1EE8DFD619368B5600F3BFF1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		1EE8DFD719368B5600F3BFF1 /* soundfeatureset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = soundfeatureset.c; sourceTree = "<group>"; };
+		1EE8DFE219372D7C00F3BFF1 /* soundfeatureset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundfeatureset.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,7 +195,7 @@
 				1EE8DFD419368B5600F3BFF1 /* gilbertsignalutil.h */,
 				1EE8DFD519368B5600F3BFF1 /* mainpage.dox */,
 				1EE8DFD619368B5600F3BFF1 /* Makefile */,
-				1EE8DFD719368B5600F3BFF1 /* soundfeatureset.c */,
+				1EE8DFE219372D7C00F3BFF1 /* soundfeatureset.cpp */,
 			);
 			path = gilbertcore;
 			sourceTree = "<group>";
@@ -304,8 +304,8 @@
 				1EE8DFDE19368B5600F3BFF1 /* gilbertsignalutil.cpp in Sources */,
 				1EE8DFDA19368B5600F3BFF1 /* gilbert.cpp in Sources */,
 				1EE8DFDB19368B5600F3BFF1 /* gilbertanalysis.cpp in Sources */,
+				1EE8DFE319372D7C00F3BFF1 /* soundfeatureset.cpp in Sources */,
 				1EE8DFDC19368B5600F3BFF1 /* gilbertclassifier.cpp in Sources */,
-				1EE8DFE119368B5600F3BFF1 /* soundfeatureset.c in Sources */,
 				1E501089191ACB5300511933 /* AppDelegate.m in Sources */,
 				1E501082191ACB5300511933 /* main.m in Sources */,
 				1EE8DFE019368B5600F3BFF1 /* Makefile in Sources */,
@@ -404,6 +404,10 @@
 				OTHER_LDFLAGS = (
 					"-lsndfile",
 					"-lfftw3",
+					"-I",
+					/usr/local/include,
+					"-L",
+					/usr/local/lib,
 				);
 				SDKROOT = macosx;
 			};
@@ -440,6 +444,10 @@
 				OTHER_LDFLAGS = (
 					"-lsndfile",
 					"-lfftw3",
+					"-I",
+					/usr/local/include,
+					"-L",
+					/usr/local/lib,
 				);
 				SDKROOT = macosx;
 			};
