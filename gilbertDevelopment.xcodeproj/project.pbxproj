@@ -17,16 +17,15 @@
 		1E501096191ACB5300511933 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E501075191ACB5300511933 /* Cocoa.framework */; };
 		1E50109E191ACB5300511933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E50109C191ACB5300511933 /* InfoPlist.strings */; };
 		1E5010A0191ACB5300511933 /* gilbertDevelopmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E50109F191ACB5300511933 /* gilbertDevelopmentTests.m */; };
-		1EE8DFD819368B5600F3BFF1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCA19368B5500F3BFF1 /* .gitignore */; };
-		1EE8DFD919368B5600F3BFF1 /* Doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCB19368B5500F3BFF1 /* Doxyfile */; };
-		1EE8DFDA19368B5600F3BFF1 /* gilbert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCC19368B5500F3BFF1 /* gilbert.cpp */; };
-		1EE8DFDB19368B5600F3BFF1 /* gilbertanalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCD19368B5500F3BFF1 /* gilbertanalysis.cpp */; };
-		1EE8DFDC19368B5600F3BFF1 /* gilbertclassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCF19368B5500F3BFF1 /* gilbertclassifier.cpp */; };
-		1EE8DFDD19368B5600F3BFF1 /* gilbertdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD119368B5600F3BFF1 /* gilbertdb.cpp */; };
-		1EE8DFDE19368B5600F3BFF1 /* gilbertsignalutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD319368B5600F3BFF1 /* gilbertsignalutil.cpp */; };
-		1EE8DFDF19368B5600F3BFF1 /* mainpage.dox in Resources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD519368B5600F3BFF1 /* mainpage.dox */; };
-		1EE8DFE019368B5600F3BFF1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD619368B5600F3BFF1 /* Makefile */; };
-		1EE8DFE319372D7C00F3BFF1 /* soundfeatureset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFE219372D7C00F3BFF1 /* soundfeatureset.cpp */; };
+		1E8A07A619449CBF00AB5CD0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E50108A191ACB5300511933 /* MainMenu.xib */; };
+		1E8A07A71944A22900AB5CD0 /* gilbert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCC19368B5500F3BFF1 /* gilbert.cpp */; };
+		1E8A07A81944A22C00AB5CD0 /* gilbertanalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCD19368B5500F3BFF1 /* gilbertanalysis.cpp */; };
+		1E8A07A91944A23400AB5CD0 /* gilbertclassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFCF19368B5500F3BFF1 /* gilbertclassifier.cpp */; };
+		1E8A07AA1944A23800AB5CD0 /* gilbertdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD119368B5600F3BFF1 /* gilbertdb.cpp */; };
+		1E8A07AB1944A23E00AB5CD0 /* gilbertsignalutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFD319368B5600F3BFF1 /* gilbertsignalutil.cpp */; };
+		1E8A07AC1944A24000AB5CD0 /* soundfeatureset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8DFE219372D7C00F3BFF1 /* soundfeatureset.cpp */; };
+		1E8A07BC1944BB2500AB5CD0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8A07BB1944BB2500AB5CD0 /* CoreAudio.framework */; };
+		1E8A07BE1944BB2E00AB5CD0 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8A07BD1944BB2E00AB5CD0 /* CoreAudioKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +58,10 @@
 		1E50109B191ACB5300511933 /* gilbertDevelopmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gilbertDevelopmentTests-Info.plist"; sourceTree = "<group>"; };
 		1E50109D191ACB5300511933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E50109F191ACB5300511933 /* gilbertDevelopmentTests.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = gilbertDevelopmentTests.m; sourceTree = "<group>"; };
+		1E8A07AD1944A38B00AB5CD0 /* gilbert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gilbert.h; sourceTree = "<group>"; };
+		1E8A07B11944B21B00AB5CD0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1E8A07BB1944BB2500AB5CD0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1E8A07BD1944BB2E00AB5CD0 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
 		1EE8DFCA19368B5500F3BFF1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1EE8DFCB19368B5500F3BFF1 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
 		1EE8DFCC19368B5500F3BFF1 /* gilbert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gilbert.cpp; sourceTree = "<group>"; };
@@ -3912,6 +3915,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8A07BE1944BB2E00AB5CD0 /* CoreAudioKit.framework in Frameworks */,
+				1E8A07BC1944BB2500AB5CD0 /* CoreAudio.framework in Frameworks */,
 				1E501076191ACB5300511933 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3950,6 +3955,9 @@
 		1E501074191ACB5300511933 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E8A07BD1944BB2E00AB5CD0 /* CoreAudioKit.framework */,
+				1E8A07BB1944BB2500AB5CD0 /* CoreAudio.framework */,
+				1E8A07B11944B21B00AB5CD0 /* AudioToolbox.framework */,
 				7D6777621938823F0087A9D9 /* 4notes_Generate.maxpat */,
 				7D676FC2193882300087A9D9 /* fftw-3.3.4 */,
 				7D6768221938821A0087A9D9 /* fftw-3.3.4 */,
@@ -4017,20 +4025,21 @@
 		1EE8DFC919368B5500F3BFF1 /* gilbertcore */ = {
 			isa = PBXGroup;
 			children = (
-				1EE8DFCA19368B5500F3BFF1 /* .gitignore */,
-				1EE8DFCB19368B5500F3BFF1 /* Doxyfile */,
+				1E8A07AD1944A38B00AB5CD0 /* gilbert.h */,
 				1EE8DFCC19368B5500F3BFF1 /* gilbert.cpp */,
-				1EE8DFCD19368B5500F3BFF1 /* gilbertanalysis.cpp */,
 				1EE8DFCE19368B5500F3BFF1 /* gilbertanalysis.h */,
-				1EE8DFCF19368B5500F3BFF1 /* gilbertclassifier.cpp */,
+				1EE8DFCD19368B5500F3BFF1 /* gilbertanalysis.cpp */,
 				1EE8DFD019368B5600F3BFF1 /* gilbertclassifier.h */,
-				1EE8DFD119368B5600F3BFF1 /* gilbertdb.cpp */,
+				1EE8DFCF19368B5500F3BFF1 /* gilbertclassifier.cpp */,
 				1EE8DFD219368B5600F3BFF1 /* gilbertdb.h */,
-				1EE8DFD319368B5600F3BFF1 /* gilbertsignalutil.cpp */,
+				1EE8DFD119368B5600F3BFF1 /* gilbertdb.cpp */,
 				1EE8DFD419368B5600F3BFF1 /* gilbertsignalutil.h */,
-				1EE8DFD519368B5600F3BFF1 /* mainpage.dox */,
-				1EE8DFD619368B5600F3BFF1 /* Makefile */,
+				1EE8DFD319368B5600F3BFF1 /* gilbertsignalutil.cpp */,
 				1EE8DFE219372D7C00F3BFF1 /* soundfeatureset.cpp */,
+				1EE8DFD519368B5600F3BFF1 /* mainpage.dox */,
+				1EE8DFCB19368B5500F3BFF1 /* Doxyfile */,
+				1EE8DFD619368B5600F3BFF1 /* Makefile */,
+				1EE8DFCA19368B5500F3BFF1 /* .gitignore */,
 			);
 			path = gilbertcore;
 			sourceTree = "<group>";
@@ -8501,7 +8510,7 @@
 		1E50106A191ACB5300511933 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = codeoclock;
 				TargetAttributes = {
 					1E501092191ACB5300511933 = {
@@ -8533,11 +8542,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE8DFD919368B5600F3BFF1 /* Doxyfile in Resources */,
-				1EE8DFD819368B5600F3BFF1 /* .gitignore in Resources */,
 				1E501080191ACB5300511933 /* InfoPlist.strings in Resources */,
 				1E50108E191ACB5300511933 /* Images.xcassets in Resources */,
-				1EE8DFDF19368B5600F3BFF1 /* mainpage.dox in Resources */,
+				1E8A07A619449CBF00AB5CD0 /* MainMenu.xib in Resources */,
 				1E501086191ACB5300511933 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -8557,15 +8564,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE8DFDE19368B5600F3BFF1 /* gilbertsignalutil.cpp in Sources */,
-				1EE8DFDA19368B5600F3BFF1 /* gilbert.cpp in Sources */,
-				1EE8DFDB19368B5600F3BFF1 /* gilbertanalysis.cpp in Sources */,
-				1EE8DFE319372D7C00F3BFF1 /* soundfeatureset.cpp in Sources */,
-				1EE8DFDC19368B5600F3BFF1 /* gilbertclassifier.cpp in Sources */,
+				1E8A07AB1944A23E00AB5CD0 /* gilbertsignalutil.cpp in Sources */,
+				1E8A07A71944A22900AB5CD0 /* gilbert.cpp in Sources */,
+				1E8A07A81944A22C00AB5CD0 /* gilbertanalysis.cpp in Sources */,
+				1E8A07A91944A23400AB5CD0 /* gilbertclassifier.cpp in Sources */,
 				1E501089191ACB5300511933 /* AppDelegate.m in Sources */,
+				1E8A07AC1944A24000AB5CD0 /* soundfeatureset.cpp in Sources */,
 				1E501082191ACB5300511933 /* main.m in Sources */,
-				1EE8DFE019368B5600F3BFF1 /* Makefile in Sources */,
-				1EE8DFDD19368B5600F3BFF1 /* gilbertdb.cpp in Sources */,
+				1E8A07AA1944A23800AB5CD0 /* gilbertdb.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8627,7 +8633,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -8670,7 +8675,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -8706,7 +8710,6 @@
 		1E5010A4191ACB5300511933 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -8725,8 +8728,14 @@
 					"-L",
 					/usr/local/lib,
 					"-lsndfile",
+					"-lrtaudio",
 					"-I",
 					/usr/local/include,
+					"-D__MACOSX_CORE__",
+					"-framework",
+					CoreAudio,
+					"-lrtaudio",
+					"-lportaudio",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -8736,7 +8745,6 @@
 		1E5010A5191ACB5300511933 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -8755,8 +8763,14 @@
 					"-L",
 					/usr/local/lib,
 					"-lsndfile",
+					"-lrtaudio",
 					"-I",
 					/usr/local/include,
+					"-D__MACOSX_CORE__",
+					"-framework",
+					CoreAudio,
+					"-lrtaudio",
+					"-lportaudio",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

@@ -7,6 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "gilbertcore/gilbert.h"
+
+gilbert * g;
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
