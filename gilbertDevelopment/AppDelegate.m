@@ -7,13 +7,15 @@
 //
 
 #import "AppDelegate.h"
-//#import "gilbertcore/gilbert.cpp"
+#import "gilbertcore/gilbert.h"
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    gilbert * g = new gilbert();
+    std::cout<<g->test()<<std::endl;
 }
 
 @end
