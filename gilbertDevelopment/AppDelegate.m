@@ -83,4 +83,11 @@ static int patestCallback( const void *inputBuffer, void *outputBuffer,
     return 0;
 }
 
+- (IBAction)buttonA:(id)sender {
+}
+
+- (IBAction)buttonPressed:(NSButton *)sender{
+    NSLog(sender.identifier);
+    g->registerBuffer([sender.identifier UTF8String]);
+}
 @end

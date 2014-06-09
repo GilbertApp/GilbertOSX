@@ -14,5 +14,6 @@ gilbert * g;
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)buttonPressed:(NSButton *)sender;
 
 @end

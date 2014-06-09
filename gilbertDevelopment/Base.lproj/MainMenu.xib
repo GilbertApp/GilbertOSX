@@ -67,33 +67,45 @@
                 <rect key="frame" x="0.0" y="0.0" width="531" height="366"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGc-NN-51s">
+                    <button identifier="drumA" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGc-NN-51s">
                         <rect key="frame" x="18" y="295" width="52" height="53"/>
                         <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aJO-FC-ETT">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system" size="10"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="buttonPressed:" target="Voe-Tx-rLC" id="slh-qs-EeZ"/>
+                        </connections>
                     </button>
-                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pft-KE-gee">
+                    <button identifier="drumB" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pft-KE-gee">
                         <rect key="frame" x="74" y="295" width="52" height="53"/>
                         <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NQb-st-KVV">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system" size="10"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="buttonPressed:" target="Voe-Tx-rLC" id="iId-sH-kGV"/>
+                        </connections>
                     </button>
-                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iF6-U3-dSK">
+                    <button identifier="drumC" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iF6-U3-dSK">
                         <rect key="frame" x="130" y="295" width="52" height="53"/>
                         <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vT1-FQ-P5z">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system" size="10"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="buttonPressed:" target="Voe-Tx-rLC" id="KZS-y3-YgM"/>
+                        </connections>
                     </button>
-                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="os1-Ea-2ks">
+                    <button identifier="drumD" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="os1-Ea-2ks">
                         <rect key="frame" x="186" y="295" width="52" height="53"/>
                         <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bIh-iv-PIO">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system" size="10"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="buttonPressed:" target="Voe-Tx-rLC" id="KG3-hZ-WYE"/>
+                        </connections>
                     </button>
                     <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFm-7B-dwf">
                         <rect key="frame" x="19" y="20" width="492" height="262"/>
