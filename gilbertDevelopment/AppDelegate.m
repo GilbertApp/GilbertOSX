@@ -34,8 +34,8 @@
     
     /* Open an audio I/O stream. */
     err = Pa_OpenDefaultStream( &stream,
-                               0,          /* no input channels */
-                               2,          /* stereo output */
+                               1,          /* no input channels */
+                               0,          /* stereo output */
                                paFloat32,  /* 32 bit floating point output */
                                44100,
                                256,        /* frames per buffer, i.e. the number
