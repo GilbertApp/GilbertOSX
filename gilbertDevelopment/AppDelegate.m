@@ -75,12 +75,12 @@ static int patestCallback( const void *inputBuffer, void *outputBuffer,
                           PaStreamCallbackFlags statusFlags,
                           void *userData )
 {
-    paTestData *data = (paTestData*)userData;
-    std::vector<double> toGilbert(framesPerBuffer);
-    
-    for( int i=0; i<framesPerBuffer; i++ ){
-        toGilbert.push_back(data->left_phase);
-    }
+    float * inputBuf = (float * )inputBuffer;
+    std::vector<double> toGilbert(inputBuf,inputBuf+framesPerBuffer);
+
+//    for( int i=0; i<framesPerBuffer; i++ ){
+//        toGilbert.push_back(inputBuffer[i]);
+//    }
     g->audioIn(toGilbert);
     return 0;
 }
