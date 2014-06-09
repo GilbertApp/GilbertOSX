@@ -76,12 +76,13 @@ static int patestCallback( const void *inputBuffer, void *outputBuffer,
                           void *userData )
 {
     float * inputBuf = (float * )inputBuffer;
-    std::vector<double> toGilbert(inputBuf,inputBuf+framesPerBuffer);
+    std::cout << inputBuf <<std::endl;
+//    std::vector<double> toGilbert(inputBuf,inputBuf+framesPerBuffer);
 
 //    for( int i=0; i<framesPerBuffer; i++ ){
 //        toGilbert.push_back(inputBuffer[i]);
 //    }
-    g->audioIn(toGilbert);
+//    g->audioIn(toGilbert);
     return 0;
 }
 
