@@ -12,6 +12,7 @@
 
 @implementation AppDelegate
 
+
 //int record( void *outputBuffer, void *inputBuffer, unsigned int nBufferFrames, double streamTime, RtAudioStreamStatus status, void *userData ){
 //    if(status){
 //        std::cout << "Stream overflow detected!" << std::endl;
@@ -32,7 +33,6 @@
     PaStream *stream;
     
     /* Open an audio I/O stream. */
-    int * data;
     err = Pa_OpenDefaultStream( &stream,
                                0,          /* no input channels */
                                2,          /* stereo output */
@@ -66,6 +66,8 @@ typedef struct
     float right_phase;
 }
 paTestData;
+
+static paTestData data;
 
 static int patestCallback( const void *inputBuffer, void *outputBuffer,
                           unsigned long framesPerBuffer,
