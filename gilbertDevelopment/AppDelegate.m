@@ -35,7 +35,7 @@
     /* Open an audio I/O stream. */
     err = Pa_OpenDefaultStream( &stream,
                                1,          /* no input channels */
-                               0,          /* stereo output */
+                               1,          /* stereo output */
                                paFloat32,  /* 32 bit floating point output */
                                44100,
                                256,        /* frames per buffer, i.e. the number
@@ -75,14 +75,11 @@ static int patestCallback( const void *inputBuffer, void *outputBuffer,
                           PaStreamCallbackFlags statusFlags,
                           void *userData )
 {
-    float * inputBuf = (float * )inputBuffer;
     (void) outputBuffer;
-    if(inputBuf != NULL){
-        std::vector<double> toGilbert(inputBuf,inputBuf+framesPerBuffer);
-
-        g->audioIn(toGilbert);
-    }
-    return 0;
+    std::vector<double> toGilbert((float *)inputBuffer,(float *)inputBuffer+framesPerBuffer);
+    std::cout<<toGilbert.at(1)<<std::endl;
+//    g->audioIn(toGilbert);
+    return paContinue;
 }
 
 - (IBAction)buttonA:(id)sender {
